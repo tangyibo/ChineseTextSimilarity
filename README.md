@@ -4,6 +4,7 @@
 
 #参考页面
 （1）http://blog.csdn.net/inrgihc/article/details/52739959
+
 （2）http://blog.csdn.net/inrgihc/article/details/52739935
 
 #编译环境
@@ -13,27 +14,44 @@ Java版本：JDK >=1.6
 
 #C++版本编译过程
 （1）Jacard 算法相似度计算
+
 $cd JaccardSimilarity
+
 $cd cplusplus
+
 $make all
+
 $bin/debug/textsimilarity
 
 (2)余弦定理算法相似度计算
+
 $cd CosineSimilarity
+
 $cd cplusplus
+
 $make all
+
 $bin/debug/textsimilarity
+
 
 #Java版本编译过程
 （1）Jacard 算法相似度计算
+
 $cd JaccardSimilarity
+
 $cd java
+
 $make build
+
 $make run
 
 (2)余弦定理算法相似度计算
+
 $cd CosineSimilarity
+
 $cd java
+
 $make build
+
 $make run
 
