@@ -13,6 +13,7 @@ C++版本：gcc/g++ >=4.4
 Java版本：JDK >=1.6
 
 #C++版本编译过程
+
 （1）Jacard 算法相似度计算
 
 $cd JaccardSimilarity
@@ -35,6 +36,7 @@ $bin/debug/textsimilarity
 
 
 #Java版本编译过程
+
 （1）Jacard 算法相似度计算
 
 $cd JaccardSimilarity
